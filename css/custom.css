@@ -1,0 +1,45 @@
+/* Move down content because we have a fixed navbar that is 3.5rem tall */
+body {
+  padding-top: 3.5rem;
+}
+ul.navbar{
+	font-family: 'Arvo', courier, serif;
+}
+ul.nav{
+
+	font-size: 13px;
+}
+.jumbotron{
+  text-align: center;
+  background-image: url(../images/hero_image.jpg);
+  color: white;
+  
+}
+.jumbotron h1{
+	font-family: 'Arvo', courier, serif;
+    margin-top:8px;
+    margin-bottom:10px;
+}
+
+.jumbotron p{
+
+	margin-bottom: 30px;
+}
+.homepage{
+  text-align: center;
+}
+.homepage h2{
+	color: red;
+	 font-family:'Arvo', courier, serif;
+    text-transform: uppercase;
+}
+.homepage h3{
+	color: red;
+	 font-family:'Arvo', courier, serif;
+    text-transform: uppercase;
+    font-size: 26px;
+}
+.hr{
+	color: red;
+	
+}
